@@ -74,15 +74,15 @@ Install [the plugin](https://github.com/rgsouthall/laser_slicer) if it hasn't be
 <img src="./Screenshot.png">
 
 Choose the following settings:
-- Thickness: 3mm (or measure your material)
-- Width: 740mm (max width of laser cutter bed, or set to width of your material)
-- Height: 440mm (max height of laser cutter bed, or set to width of your material)
-- DPI: 96
-- Line Colour: RGB 255 0 0 0
-- Thickness: ideally we need 0.1mm thickness, which is 0.38 pixels at 96 DPI, but it seems the minimum possible value here is 1 pixel
-- Separate files: unticked
-- Cut spacing: 1mm
-- SVG polygons: unticked
+- _Thickness_: 3mm (or measure your material)
+- _Width_: 740mm (max width of laser cutter bed, or set to width of your material)
+- _Height_: 440mm (max height of laser cutter bed, or set to width of your material)
+- _DPI_: 96
+- _Line Colour_: RGB 255 0 0 0
+- _Thickness_: ideally we need 0.1mm thickness, which is 0.38 pixels at 96 DPI, but it seems the minimum possible value here is 1 pixel
+- _Separate files_: unticked
+- _Cut spacing_: 1mm
+- _SVG polygons_: unticked
 
 5. Choose an appropriate location, select your 3D object and click "Slice the Object"
 
