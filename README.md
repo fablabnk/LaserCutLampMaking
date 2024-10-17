@@ -2,13 +2,13 @@ TODO: power and velocity settings
 
 In this FabLab Friday workshop we will explore techniques for slicing 3D models into 2D layers for laser cutting. Our goal will be to produce a cardboard lamp. Cardboard is a great material for lamp-making, as it's corrigated nature allows light to escape in interesting ways.
 
-<img src="https://i.ytimg.com/vi/MGB-qnGYxUA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBG-3KA27V2sosok07HAt6LJ8VLiQ" width="300">
+<img src="https://i.ytimg.com/vi/MGB-qnGYxUA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBG-3KA27V2sosok07HAt6LJ8VLiQ" width="200">
 
-<img src="https://i.ytimg.com/vi/YLJXWbOkDyg/maxresdefault.jpg" width="300">
+<img src="https://i.ytimg.com/vi/YLJXWbOkDyg/maxresdefault.jpg" width="200">
 
-<img src="https://cdn.shopify.com/s/files/1/1532/5479/files/Tabitha-Bargh-16.11.1622741.jpg?v=1603891290" alt="Alt text" width="300">
+<img src="https://cdn.shopify.com/s/files/1/1532/5479/files/Tabitha-Bargh-16.11.1622741.jpg?v=1603891290" alt="Alt text" width="200">
 
-<img src="https://content.instructables.com/F6R/FYZZ/JR0YV25J/F6RFYZZJR0YV25J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150" width="300">
+<img src="https://content.instructables.com/F6R/FYZZ/JR0YV25J/F6RFYZZJR0YV25J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150" width="200">
 
 # Tools and Workflow
 
@@ -87,6 +87,8 @@ Choose the following settings:
 From here on in, the challenge will be to arrange the cuts on the sheet to make optimal use of material. It should be possible to organise the layers in two sheets, in such a way that they are inside of each other, but that they don't overlap.
 
 # RayJet Manager Settings
+
+<img src="https://i0.wp.com/rayjetuser.ca/wp-content/uploads/2022/05/RayjetManager.png" width="300">
 
 The final 'print' to the laser cutter software should be done from Adobe software (Illustrator or Acrobat). Our RayJet Manager laser cutter software is very picky about the kinds of vector file it will cut. Some tips for preparing the file in Inkscape are:
 
