@@ -31,9 +31,9 @@ Don't worry if you don't manage to produce a completed lamp by the end of the se
 	- one or two people from each team
 - 15:30 Laser Time
 	- Each team gets 40 minutes of laser-cutter time
-		- Team 1: 15:30 - 16:10
-		- Team 2: 16:10 - 16:50
-		- Team 3: 16:50 - 17:30
+		- __Team 1__: 15:30 - 16:10
+		- __Team 2__: 16:10 - 16:50
+		- __Team 3__: 16:50 - 17:30
 - 17:30 Informal presentations, knowledge-sharing and wrap-up
 
 # Laser Cutter Safety Rules (Recap)
@@ -58,7 +58,7 @@ To learn the technique, we will first spend less time designing and more time on
 
 Whichever method you choose, you should export the final model in .stl format, ready to be imported to Blender to slice. 
 
-Note: pay special attention to the wall thickness of your object. Too thick and light won't easily get through, too thin and your lamp will be too flimsy
+Note: Pay special attention to the wall thickness of your object. Too thick and light won't easily get through, too thin and your lamp will be too flimsy
 
 # Slicing Using Blender and the Laser Slicer Plugin
 
@@ -99,7 +99,10 @@ The final 'print' to the laser cutter software should be done from Adobe softwar
 
 3. Save the file in PDF format.
 
-4. Open the PDF in Adobe Acrobat. Now choose Print and choose RayJet Manager, click the print button and wait for the job to come through to the RayJet Manager software. Then click on the job in the list on the right and look for a red 'timing' in the pane on the left. If there's no timing there, something went wrong. If there is a timing, all is well and you can go on to select the correct power and speed settings.
+4. Open the PDF in Adobe Acrobat.
+- Now choose Print and choose RayJet Manager, click the print button and wait for the job to come through to the RayJet Manager software
+- Then click on the job in the list on the right and look for a red 'timing' in the pane on the left
+- If there's no timing there, something went wrong. If there is a timing, all is well and you can go on to select the correct power and speed settings.
 
 # Futher Explorations and Alternative Approaches
 
@@ -142,15 +145,3 @@ OpenSCAD also comes with a command line interface to allow commands such as: `op
 ## Fusion
 
 A similar [3rd party plugin](https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/3yg7zznS94MHNDG7KMV8Qg.html) to the one we've been using exists for Autodesk Fusion, but this is no longer maintained, unfortunately. But maybe you can find a workaround
-
-## Other Blender Plugins
-
-Check out [Flatterer](https://extensions.blender.org/add-ons/flatterer/)
-
-## OpenSCAD
-
-https://github.com/frezik/laser_slicer
-
-## Fusion
-
-A similar 3rd party plugin exists for Autodesk Fusion, but this is no longer maintained
