@@ -40,11 +40,14 @@ Don't worry if you don't manage to produce a completed lamp by the end of the se
 
 # Laser Cutter Safety Rules (Recap)
 
+You must have completed a short onboarding before you can use the laser cutter independently in the lab. For those that haven't done it already, we will integrate it into today's session.
+
 - When cutting:
 	- Close vents 1-4
 	- Ensure the ventilation system is turned up and is on (makes noise)
 	- Inform anyone working outside
 - When done cutting: re-open vents 1 and 4
+- __NEVER__ leave the laser cutter unattended
 - Take special care with cardboard not to cause fire!
 - If there's an out-of-control fire, use CO2 extinguisher only (next to the laser cutter)
 - Always test on a small piece of material first to dial-in your settings
