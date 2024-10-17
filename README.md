@@ -1,6 +1,6 @@
 TODO: power and velocity settings
 
-In this FabLab Friday workshop we will explore techniques for slicing 3D models into 2D layers for laser cutting. Our goal will be to produce a cardboard lamp. Cardboard is an ideal material for this purpose, as it's corrigated nature allows light to escape in interesting ways.
+In this FabLab Friday workshop we will explore techniques for slicing 3D models into 2D layers for laser cutting. Our goal will be to produce a cardboard lamp. Cardboard is a great material for lamp-making, as it's corrigated nature allows light to escape in interesting ways.
 
 <img src="https://i.ytimg.com/vi/MGB-qnGYxUA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBG-3KA27V2sosok07HAt6LJ8VLiQ" width="300">
 
@@ -12,6 +12,8 @@ In this FabLab Friday workshop we will explore techniques for slicing 3D models 
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiutiyK2EQrjU2Qb6gPRCHKd5R6zc92T4rR7WIc5qTrcXqy8pyVTgJQobkI1AXndJ63xA&usqp=CAU" width="300">
 
+# Tools and Workflow
+
 We will work using Windows as our operating system and our main tools will be:
 - the 3D CAD package [Blender]()
 - a third party [laser slicer plugin]()
@@ -20,8 +22,6 @@ We will work using Windows as our operating system and our main tools will be:
 - Trotec Rayjet Manager (the software used to control our lab laser cutter)
 
 The slicer plugin will allow us to take any 3D object, define a slice height and produce a vector graphics file that contains a layer for each slice. Inkscape will be used to tidy up the layers and arrange them into sheets. Your team will be given two sheets of 740x440 cardboard to work with.
-
-For those that are more familiar with it, Autodesk Fusion is also available for use, although the final slicing will need to be done in Blender.
 
 Don't worry if you don't manage to produce a completed lamp by the end of the session, as there will be time to experiment further next week during our open Friday session.
 
@@ -74,44 +74,38 @@ Install [the plugin](https://github.com/rgsouthall/laser_slicer) if it hasn't be
 <img src="./Screenshot.png">
 
 Choose the following settings:
-	- Thickness: 3mm (or measure your material)
-	- Width: 740mm (max width of laser cutter bed, or set to width of your material)
-	- Height: 440mm (max height of laser cutter bed, or set to width of your material)
-	- DPI: 96
-	- Line Colour: RGB 255 0 0 0
-	- Thickness: we need 0.1mm thickness, which is 0.38 pixels at 96 DPI
-		- but this doesn't work
-	- Separate files: unticked
-	- Cut spacing: 1mm
-	- SVG polygons: unticked
-5. Choose an appropriate location, select the model and click "Slice the Object"
+- Thickness: 3mm (or measure your material)
+- Width: 740mm (max width of laser cutter bed, or set to width of your material)
+- Height: 440mm (max height of laser cutter bed, or set to width of your material)
+- DPI: 96
+- Line Colour: RGB 255 0 0 0
+- Thickness: ideally we need 0.1mm thickness, which is 0.38 pixels at 96 DPI, but it seems the minimum possible value here is 1 pixel
+- Separate files: unticked
+- Cut spacing: 1mm
+- SVG polygons: unticked
 
-The challenge will be how to arrange the cuts on the sheet to make least use of material. 
+5. Choose an appropriate location, select your 3D object and click "Slice the Object"
 
-It should be possible to make 2 sheets, inside each other, so you will have to make some manual adjustments here. 
+From here on in, the challenge will be to arrange the cuts on the sheet to make optimal use of material. It should be possible to organise the layers in two sheets, in such a way that they are inside of each other, but that they don't overlap.
 
 # RayJet Manager Settings
 
-The final 'print' to the laser cutter should be done from Adobe software (Illustrator or Acrobat).
+The final 'print' to the laser cutter software should be done from Adobe software (Illustrator or Acrobat). Our RayJet Manager laser cutter software is very picky about the kinds of vector file it will cut. Some tips for setting in Inkscape are:
 
-Our RayJet Manager laser cutter software is very picky about the kinds of vector file it will cut.
+1. Select all objects and in 'Fill and Stroke' settings:
+- Remove any fill
+- Choose a stroke width of between 0.01 and 0.1mm
+- Choose a stroke colour of pure red (i.e. RGB 255 0 0)
 
-Select all objects and in Fill and Stroke settings:
-- remove any fill
-- choose a stroke width of between 0.01 and 0.1
-- choose a stroke colour of pure red (i.e. RGB 255 0 0)
+2. Bring up the layers pane and inspect the layers. There should be no text layers or unexpected layers other than vector lines.
 
-Now bring up the layers pane and inspect the layers. There should be no text layers or unexpected layers other than vector lines. 
+3. Save the file in PDF format.
 
-Now choose Print and choose RayJet Manager, click the print button and wait for the job to come through to RayJet Manager.
-
-Then click on the job in the list on the right and look for a red 'timing' in the pane on the left. If there's no timing there, something went wrong.
-
-If there is a timing, all is well and you can go on to select the correct power and speed settings.
+4. Open the PDF in Adobe Acrobat. Now choose Print and choose RayJet Manager, click the print button and wait for the job to come through to the RayJet Manager software. Then click on the job in the list on the right and look for a red 'timing' in the pane on the left. If there's no timing there, something went wrong. If there is a timing, all is well and you can go on to select the correct power and speed settings.
 
 # Futher Explorations and Alternative Approaches
 
-whilst researching this workshop, but didn't have time to delve into.
+Whilst researching this workshop, we found many interesting techniques that you might wish to delve into, with more time:
 
 ## Other Blender Plugins
 
@@ -154,5 +148,3 @@ https://github.com/frezik/laser_slicer
 ## Fusion
 
 A similar 3rd party plugin exists for Autodesk Fusion, but this is no longer maintained
-
-## Command-line Tools
