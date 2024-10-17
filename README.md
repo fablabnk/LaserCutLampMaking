@@ -2,13 +2,15 @@ TODO: power and velocity settings
 
 In this FabLab Friday workshop we will explore techniques for slicing 3D models into 2D layers for laser cutting. Our goal will be to produce a cardboard lamp. Cardboard is a great material for lamp-making, as it's corrigated nature allows light to escape in interesting ways.
 
-<img src="https://i.ytimg.com/vi/MGB-qnGYxUA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBG-3KA27V2sosok07HAt6LJ8VLiQ" width="200">
+<p align="center">
+  <img src="https://i.ytimg.com/vi/MGB-qnGYxUA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBG-3KA27V2sosok07HAt6LJ8VLiQ" width="50%" />
+  <img src="https://i.ytimg.com/vi/YLJXWbOkDyg/maxresdefault.jpg" width="50%" /> 
+</p>
 
-<img src="https://i.ytimg.com/vi/YLJXWbOkDyg/maxresdefault.jpg" width="200">
-
-<img src="https://cdn.shopify.com/s/files/1/1532/5479/files/Tabitha-Bargh-16.11.1622741.jpg?v=1603891290" alt="Alt text" width="200">
-
-<img src="https://content.instructables.com/F6R/FYZZ/JR0YV25J/F6RFYZZJR0YV25J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150" width="200">
+<p align="center">
+  <img src="https://cdn.shopify.com/s/files/1/1532/5479/files/Tabitha-Bargh-16.11.1622741.jpg?v=1603891290" width="50%" />
+  <img src="https://content.instructables.com/F6R/FYZZ/JR0YV25J/F6RFYZZJR0YV25J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150" width="50%" /> 
+</p>
 
 # Tools and Workflow
 
