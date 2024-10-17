@@ -90,7 +90,7 @@ From here on in, the challenge will be to arrange the cuts on the sheet to make 
 
 # RayJet Manager Settings
 
-The final 'print' to the laser cutter software should be done from Adobe software (Illustrator or Acrobat). Our RayJet Manager laser cutter software is very picky about the kinds of vector file it will cut. Some tips for setting in Inkscape are:
+The final 'print' to the laser cutter software should be done from Adobe software (Illustrator or Acrobat). Our RayJet Manager laser cutter software is very picky about the kinds of vector file it will cut. Some tips for preparing the file in Inkscape are:
 
 1. Select all objects and in 'Fill and Stroke' settings:
 - Remove any fill
