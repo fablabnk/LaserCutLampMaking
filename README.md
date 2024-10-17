@@ -1,0 +1,158 @@
+TODO: power and velocity settings
+
+In this FabLab Friday workshop we will explore techniques for slicing 3D models into 2D layers for laser cutting. Our goal will be to produce a cardboard lamp. Cardboard is an ideal material for this purpose, as it's corrigated nature allows light to escape in interesting ways.
+
+<img src="https://i.ytimg.com/vi/MGB-qnGYxUA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBG-3KA27V2sosok07HAt6LJ8VLiQ" alt="Alt text" width="300" height="200">
+
+<img src="https://i.ytimg.com/vi/YLJXWbOkDyg/maxresdefault.jpg" alt="Alt text" width="300" height="200">
+
+<img src="https://cdn.shopify.com/s/files/1/1532/5479/files/Tabitha-Bargh-16.11.1622741.jpg?v=1603891290" alt="Alt text" width="300" height="200">
+
+<img src="https://content.instructables.com/F6R/FYZZ/JR0YV25J/F6RFYZZJR0YV25J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150" alt="Alt text" width="300" height="200">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiutiyK2EQrjU2Qb6gPRCHKd5R6zc92T4rR7WIc5qTrcXqy8pyVTgJQobkI1AXndJ63xA&usqp=CAU" alt="Alt text" width="300" height="200">
+
+We will work using Windows as our operating system and our main tools will be:
+- the 3D CAD package [Blender]()
+- a third party [laser slicer plugin]()
+- the 2D vector design software [Inkscape]()
+- Adobe Acrobat
+- Trotec Rayjet Manager (the software used to control our lab laser cutter)
+
+The slicer plugin will allow us to take any 3D object, define a slice height and produce a vector graphics file that contains a layer for each slice. Inkscape will be used to tidy up the layers and arrange them into sheets. Your team will be given two sheets of 740x440 cardboard to work with.
+
+For those that are more familiar with it, Autodesk Fusion is also available for use, although the final slicing will need to be done in Blender.
+
+Don't worry if you don't manage to produce a completed lamp by the end of the session, as there will be time to experiment further next week during our open Friday session.
+
+# Schedule
+
+- 14:00 Introduction and demo of the slicing process
+- 14:30 Split into three teams and initial exploration of the tools
+- 15:10 Laser cutter onboarding
+	- one or two people from each team
+- 15:30 Laser Time
+	- Each team gets 40 minutes of laser-cutter time
+		- Team 1: 15:30 - 16:10
+		- Team 2: 16:10 - 16:50
+		- Team 3: 16:50 - 17:30
+- 17:30 Informal presentations, knowledge-sharing and wrap-up
+
+# Laser Cutter Safety Rules (Recap)
+
+- When cutting:
+	- Close vents 1-4
+	- Ensure the ventilation system is turned up and is on (makes noise)
+	- Inform anyone working outside
+- When done cutting: re-open vents 1 and 4
+- Take special care with cardboard not to cause fire!
+- If there's an out-of-control fire, use CO2 extinguisher only (next to the laser cutter)
+- Always test on a small piece of material first to dial-in your settings
+- Example cutting settings for 4mm cardboard are x power, x velocity
+
+# Getting Started
+
+To learn the technique, we will first spend less time designing and more time on the slicing process, so we suggest to either:
+
+1. Download an appropriate model from [Printables](https://www.printables.com/) e.g [this bowl](https://www.printables.com/model/635944-bowl-shaped-bowl)
+
+2. Design a simple form in Blender, Tinkercad or Fusion
+
+Whichever method you choose, you should export the final model in .stl format, ready to be imported to Blender to slice. 
+
+Note: pay special attention to the wall thickness of your object. Too thick and light won't easily get through, too thin and your lamp will be too flimsy
+
+# Slicing Using Blender and the Laser Slicer Plugin
+
+Install [the plugin](https://github.com/rgsouthall/laser_slicer) if it hasn't been done for you already. Then follow these intructions:
+
+1. Import the model as an .stl into Blender
+2. Scale it to an appropriate size (so we don't generate 100's of layers!)
+3. Ensure the Laser Slicer plugin is ticked in Edit > Preferences -> Add-ons
+4. There should now be a 'panel' called Laser, which looks as follows
+
+<img src="./Screenshot.png" alt="Alt text" width="300" height="200">
+
+Choose the following settings:
+	- Thickness: 3mm (or measure your material)
+	- Width: 740mm (max width of laser cutter bed, or set to width of your material)
+	- Height: 440mm (max height of laser cutter bed, or set to width of your material)
+	- DPI: 96
+	- Line Colour: RGB 255 0 0 0
+	- Thickness: we need 0.1mm thickness, which is 0.38 pixels at 96 DPI
+		- but this doesn't work
+	- Separate files: unticked
+	- Cut spacing: 1mm
+	- SVG polygons: unticked
+5. Choose an appropriate location, select the model and click "Slice the Object"
+
+The challenge will be how to arrange the cuts on the sheet to make least use of material. 
+
+It should be possible to make 2 sheets, inside each other, so you will have to make some manual adjustments here. 
+
+# RayJet Manager Settings
+
+The final 'print' to the laser cutter should be done from Adobe software (Illustrator or Acrobat).
+
+Our RayJet Manager laser cutter software is very picky about the kinds of vector file it will cut.
+
+Select all objects and in Fill and Stroke settings:
+- remove any fill
+- choose a stroke width of between 0.01 and 0.1
+- choose a stroke colour of pure red (i.e. RGB 255 0 0)
+
+Now bring up the layers pane and inspect the layers. There should be no text layers or unexpected layers other than vector lines. 
+
+Now choose Print and choose RayJet Manager, click the print button and wait for the job to come through to RayJet Manager.
+
+Then click on the job in the list on the right and look for a red 'timing' in the pane on the left. If there's no timing there, something went wrong.
+
+If there is a timing, all is well and you can go on to select the correct power and speed settings.
+
+# Futher Explorations and Alternative Approaches
+
+whilst researching this workshop, but didn't have time to delve into.
+
+## Other Blender Plugins
+
+Check out [Flatterer](https://extensions.blender.org/add-ons/flatterer/)
+
+## OpenSCAD and Laser Slicer Plugin
+
+OpenSCAD is free software for programmatically creating solid 3D CAD objects using code. Here's an example of the code:
+
+```
+two_cubes_and_a_cylinder.scad
+
+cube([60,20,10],center=true);
+translate([5,0,10 - 0.001])
+    cube([30,20,10],center=true);
+translate([0,-20,0])
+    cylinder(h=3,r=8);
+```
+
+OpenSCAD also comes with a command line interface to allow commands such as: `openscad -o output.svg input.scad`. This interface can also be scripted specifically for laser cutter slicing using [this python script](https://github.com/frezik/laser_slicer)
+
+## Slic3r
+
+[Slic3r](https://slic3r.org/) has a command line tool that allows you to export SVG slices
+
+`slic3r --export-svg --output output.svg input.stl`
+
+## Fusion
+
+A similar [3rd party plugin](https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/3yg7zznS94MHNDG7KMV8Qg.html) to the one we've been using exists for Autodesk Fusion, but this is no longer maintained, unfortunately. But maybe you can find a workaround
+
+## Other Blender Plugins
+
+Check out [Flatterer](https://extensions.blender.org/add-ons/flatterer/)
+
+## OpenSCAD
+
+https://github.com/frezik/laser_slicer
+
+## Fusion
+
+A similar 3rd party plugin exists for Autodesk Fusion, but this is no longer maintained
+
+## Command-line Tools
