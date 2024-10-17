@@ -10,8 +10,6 @@ In this FabLab Friday workshop we will explore techniques for slicing 3D models 
 
 <img src="https://content.instructables.com/F6R/FYZZ/JR0YV25J/F6RFYZZJR0YV25J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150" width="300">
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiutiyK2EQrjU2Qb6gPRCHKd5R6zc92T4rR7WIc5qTrcXqy8pyVTgJQobkI1AXndJ63xA&usqp=CAU" width="300">
-
 # Tools and Workflow
 
 We will work using Windows as our operating system and our main tools will be:
@@ -105,7 +103,15 @@ The final 'print' to the laser cutter software should be done from Adobe softwar
 
 # Futher Explorations and Alternative Approaches
 
-Whilst researching this workshop, we found many interesting techniques that you might wish to delve into, with more time:
+Whilst researching this workshop, we found many interesting techniques that you might wish to delve into, given more time:
+
+## Experimenting with Spiral Forms
+
+Spiral forms are great as they we don't need to slice them - they naturally hang down and also make optimum use of materials.
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiutiyK2EQrjU2Qb6gPRCHKd5R6zc92T4rR7WIc5qTrcXqy8pyVTgJQobkI1AXndJ63xA&usqp=CAU" width="300">
+
+We found some inspiring designs [here](https://www.thingiverse.com/thing:3526359) and [here](https://www.thingiverse.com/thing:2639588)
 
 ## Other Blender Plugins
 
