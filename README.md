@@ -21,7 +21,7 @@ We will work using Windows as our operating system and our main tools will be:
 - Adobe Acrobat
 - Trotec Rayjet Manager (the software used to control our lab laser cutter)
 
-The slicer plugin will allow us to take any 3D object, define a slice height and produce a vector graphics file that contains a layer for each slice. Inkscape will be used to tidy up the layers and arrange them into sheets. Your team will be given two sheets of 740x440 cardboard to work with.
+The slicer plugin will allow us to take any 3D object, define a slice height and produce a vector graphics file that contains a layer for each slice. Inkscape will be used to tidy up the layers and arrange them into sheets. Your team will be given two sheets of 740mmx440mm cardboard to get you started.
 
 Don't worry if you don't manage to produce a completed lamp by the end of the session, as there will be time to experiment further next week during our open Friday session.
 
@@ -72,7 +72,7 @@ Install [the plugin](https://github.com/rgsouthall/laser_slicer) if it hasn't be
 1. Import the model as an .stl into Blender
 2. Scale it to an appropriate size (so we don't generate 100's of layers!)
 3. Ensure the Laser Slicer plugin is ticked in Edit > Preferences -> Add-ons
-4. There should now be a 'panel' called Laser, which looks as follows
+4. A panel called `laser` should have now appeared, which looks as follows:
 
 <img src="./Screenshot.png">
 
