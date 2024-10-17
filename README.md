@@ -27,16 +27,16 @@ Don't worry if you don't manage to produce a completed lamp by the end of the se
 
 # Schedule
 
-- 14:00 Introduction and demo of the slicing process
-- 14:30 Split into three teams and initial exploration of the tools
-- 15:10 Laser cutter onboarding
+- __14:00__ Introduction and demo of the slicing process
+- __14:30__ Split into three teams and initial exploration of the tools
+- __15:10__ Laser cutter onboarding
 	- one or two people from each team
-- 15:30 Laser Time
+- __15:30__ Laser Time
 	- Each team gets 40 minutes of laser-cutter time
 		- __Team 1__: 15:30 - 16:10
 		- __Team 2__: 16:10 - 16:50
 		- __Team 3__: 16:50 - 17:30
-- 17:30 Informal presentations, knowledge-sharing and wrap-up
+- __17:30__ Informal presentations, knowledge-sharing and wrap-up
 
 # Laser Cutter Safety Rules (Recap)
 
