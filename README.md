@@ -2,15 +2,15 @@ TODO: power and velocity settings
 
 In this FabLab Friday workshop we will explore techniques for slicing 3D models into 2D layers for laser cutting. Our goal will be to produce a cardboard lamp. Cardboard is an ideal material for this purpose, as it's corrigated nature allows light to escape in interesting ways.
 
-<img src="https://i.ytimg.com/vi/MGB-qnGYxUA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBG-3KA27V2sosok07HAt6LJ8VLiQ" alt="Alt text" width="300" height="200">
+<img src="https://i.ytimg.com/vi/MGB-qnGYxUA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBG-3KA27V2sosok07HAt6LJ8VLiQ" width="300">
 
-<img src="https://i.ytimg.com/vi/YLJXWbOkDyg/maxresdefault.jpg" alt="Alt text" width="300" height="200">
+<img src="https://i.ytimg.com/vi/YLJXWbOkDyg/maxresdefault.jpg" width="300">
 
-<img src="https://cdn.shopify.com/s/files/1/1532/5479/files/Tabitha-Bargh-16.11.1622741.jpg?v=1603891290" alt="Alt text" width="300" height="200">
+<img src="https://cdn.shopify.com/s/files/1/1532/5479/files/Tabitha-Bargh-16.11.1622741.jpg?v=1603891290" alt="Alt text" width="300">
 
-<img src="https://content.instructables.com/F6R/FYZZ/JR0YV25J/F6RFYZZJR0YV25J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150" alt="Alt text" width="300" height="200">
+<img src="https://content.instructables.com/F6R/FYZZ/JR0YV25J/F6RFYZZJR0YV25J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150" width="300">
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiutiyK2EQrjU2Qb6gPRCHKd5R6zc92T4rR7WIc5qTrcXqy8pyVTgJQobkI1AXndJ63xA&usqp=CAU" alt="Alt text" width="300" height="200">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiutiyK2EQrjU2Qb6gPRCHKd5R6zc92T4rR7WIc5qTrcXqy8pyVTgJQobkI1AXndJ63xA&usqp=CAU" width="300">
 
 We will work using Windows as our operating system and our main tools will be:
 - the 3D CAD package [Blender]()
@@ -71,7 +71,7 @@ Install [the plugin](https://github.com/rgsouthall/laser_slicer) if it hasn't be
 3. Ensure the Laser Slicer plugin is ticked in Edit > Preferences -> Add-ons
 4. There should now be a 'panel' called Laser, which looks as follows
 
-<img src="./Screenshot.png" alt="Alt text" width="300" height="200">
+<img src="./Screenshot.png">
 
 Choose the following settings:
 	- Thickness: 3mm (or measure your material)
