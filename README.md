@@ -1,5 +1,3 @@
-TODO: power and velocity settings
-
 In this FabLab Friday workshop we will explore techniques for slicing 3D models into 2D layers for laser cutting. Our goal will be to produce a cardboard lamp. Cardboard is a great material for lamp-making, as it's corrigated nature allows light to escape in interesting ways.
 
 <p align="center">
@@ -15,9 +13,9 @@ In this FabLab Friday workshop we will explore techniques for slicing 3D models 
 # Tools and Workflow
 
 We will work using Windows as our operating system and our main tools will be:
-- the 3D CAD package [Blender]()
-- a third party [laser slicer plugin]()
-- the 2D vector design software [Inkscape]()
+- the 3D CAD package [Blender](https://www.blender.org/)
+- a third party [laser slicer plugin](https://github.com/rgsouthall/laser_slicer)
+- the 2D vector design software [Inkscape](https://github.com/inkscape/inkscape)
 - Adobe Acrobat
 - Trotec Rayjet Manager (the software used to control our lab laser cutter)
 
@@ -51,7 +49,7 @@ You must have completed a short onboarding before you can use the laser cutter i
 - Take special care with cardboard not to cause fire!
 - If there's an out-of-control fire, use CO2 extinguisher only (next to the laser cutter)
 - Always test on a small piece of material first to dial-in your settings
-- Example cutting settings for 4mm cardboard are x power, x velocity
+- Example cutting settings for 4mm cardboard: [to complete]
 
 # Getting Started
 
